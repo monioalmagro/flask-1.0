@@ -1,5 +1,5 @@
-from app create_app
-from flask-script import Manager
+from app import create_app
+from flask_script import Manager
 
 app = create_app()
 
